@@ -4,7 +4,7 @@ const options = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "careers.udugiri.com - Hiring Portal API",
+      title: "careers.udugiri.com  Portal Backned",
       version: "1.0.0",
       description:
         "Production-ready SaaS Hiring Portal backend API documentation. Includes auth, student, company, admin, jobs, applications, subscriptions, and payments.",
@@ -15,8 +15,8 @@ const options = {
     },
     servers: [
       {
-        url: process.env.API_BASE_URL || "https://udugiri-server.onrender.com",
-        description: "Development Server",
+        url: "https://udugiri-server.onrender.com",
+        description: "Production Server",
       },
     ],
     components: {
