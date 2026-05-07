@@ -15,7 +15,7 @@ const options = {
     },
     servers: [
       {
-        url: process.env.API_BASE_URL || "http://localhost:5000",
+        url: process.env.API_BASE_URL || "https://udugiri-server.onrender.com",
         description: "Development Server",
       },
     ],
